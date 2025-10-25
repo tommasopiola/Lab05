@@ -99,7 +99,6 @@ def main(page: ft.Page):
             anno = int(anno_str)
             posti = int(txtOut.value)
 
-
             if not marca or not modello:
                 raise ValueError("Marca e modello non possono essere vuoti.")
 
